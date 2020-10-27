@@ -37,9 +37,28 @@ export default {
     }
   }
 }
+      // swiperList: [{
+      //   id: '0001',
+      //   imgUrl: 'https://xkxh-1303991241.cos.ap-nanjing.myqcloud.com/code/1.png'
+      // }, {
+      //   id: '0002',
+      //   imgUrl: 'https://xkxh-1303991241.cos.ap-nanjing.myqcloud.com/code/2.png'
+      // }, {
+      //   id: '0003',
+      //   imgUrl: 'https://xkxh-1303991241.cos.ap-nanjing.myqcloud.com/code/3.JPG'
+      // }, {
+      //   id: '0004',
+      //   imgUrl: 'https://xkxh-1303991241.cos.ap-nanjing.myqcloud.com/code/4.png'
+      // }, {
+      //   id: '0005',
+      //   imgUrl: 'https://xkxh-1303991241.cos.ap-nanjing.myqcloud.com/code/5.png'
+      // }] height: 28rem;
 </script>
 
 <style scoped> 
+  /* .wrapper >>> .swiper-pagination-bullet-active {
+    background: red !important;
+  } */    /*改变轮播图图标颜色一直失效*/
   .wrapper {
     overflow: hidden;
     width: 100%;
