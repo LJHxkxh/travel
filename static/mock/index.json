@@ -1,0 +1,136 @@
+{
+  "ret": true,
+  "data": {
+    "city": "南昌",
+    "swiperList":[{
+      "id": "0001",
+      "imgUrl": "http://imgs.qunarzz.com/p/p35/1809/7e/14d16340f35a2202.jpg_750x500_513c6978.jpg"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://imgs.qunarzz.com/sight/p0/201312/17/a938bb49b7379ec1e9954fe222bdb35f.jpg_750x500_352eff02.jpg"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://imgs.qunarzz.com/p/p71/1809/50/b5597c7332bef702.jpg_750x500_78e46879.jpg"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://imgs.qunarzz.com/sight/p0/1606/dd/dd87923d1930a62990.water.jpg_750x500_6317bdc8.jpg"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://imgs.qunarzz.com/p/p61/1503/ef/096e7764d97e63.jpg_750x500_25c19507.jpg"
+    }],
+    "iconsList": [{
+      "id": "0001",
+      "imgUrl": "https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png",
+      "desc": "海外酒店"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "https://picbed.qunarzz.com/a36d2288f19e54562338f4d8ef986288.png",
+      "desc": "低价机票"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "https://picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png",
+      "desc": "汽车票船票"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "https://picbed.qunarzz.com/ae617a31e0bd5803d76918b817f6d942.png",
+      "desc": "自由行"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "https://picbed.qunarzz.com/f6bb08a239ce1b038204120a8d1e4669.png",
+      "desc": "特惠酒店"
+    },
+    {
+      "id": "0006",
+      "imgUrl": "https://picbed.qunarzz.com/01d2f57f920666364197a850dab859a8.png",
+      "desc": "民宿客栈"
+    },
+    {
+      "id": "0007",
+      "imgUrl": "https://picbed.qunarzz.com/83af731055e121a3251690b225327b56.png",
+      "desc": "专车自驾"
+    },
+    {
+      "id": "0008",
+      "imgUrl": "https://picbed.qunarzz.com/c65b3bb7571a6bd62df669213e44b84d.png",
+      "desc": "一日游"
+    },
+    {
+      "id": "0009",
+      "imgUrl": "https://picbed.qunarzz.com/1e107321f5396ea4994cd832232ecf8a.png",
+      "desc": "旅游团购"
+    },
+    {
+      "id": "0010",
+      "imgUrl": "https://img1.qunarzz.com/order/comp/2007/23/734c3c62d2adce02.png",
+      "desc": "行程设计"
+    }],
+    "recommendList":[{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/94/945ab5b76758703a3.water.jpg_250x250_ff0fb518.jpg",
+      "title": "滕王阁",
+      "desc": "江西省南昌市东湖区仿古街58号"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "https://imgs.qunarzz.com/sight/p0/2006/12/1296c09bc93c1719a3.water.jpg_200x200_54c626f8.jpg",
+      "title": "南昌融创乐园",
+      "desc": "江西省南昌市九龙湖新区南龙蟠街888号"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1811/af/afa4e4d39dcbf6ffa3.img.jpg_250x250_4f000e2b.jpg",
+      "title": "梅岭太阳谷",
+      "desc": "江西省南昌市湾里区梅岭太阳坑（梅岭银杏生态园旁）"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1502/b5/b58f7a84a767a624.water.jpg_250x250_3028b3ef.jpg",
+      "title": "梅岭狮子峰",
+      "desc": "江西省南昌市湾里区店前以西4公里"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/2009/9c/9c7a1722efa444b5a3.img.jpg_200x200_d48d017a.jpg",
+      "title": "海昏侯·龙文化展示馆",
+      "desc": "江西省南昌新建区大塘乡南昌汉代海昏侯国遗址公园龙文化展示馆"
+    }],
+    "weekendList":[{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/74/a665dfecf12ae.jpg_r_640x214_5d22909a.jpg",
+      "title": "南昌必游TOP10",
+      "desc": "看山看水，看看历史对南昌的浸润"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1509/6e/49ebb42da82957.jpg_r_640x214_29dfe99b.jpg",
+      "title": "南昌秋天美",
+      "desc": "深秋的南昌，秋风徐徐，落叶极美"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/bd/688c12889af7ad.jpg_r_640x214_cc490c32.jpg",
+      "title": "Happy乐园",
+      "desc": "在这个玩转乐园，疯玩起来，无忧无虑一整天!"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/df/9bcc134d126bc4.jpg_r_640x214_58a1f389.jpg",
+      "title": "陶醉青山绿水",
+      "desc": "一年四季景色秀丽，层峦叠嶂，岩石高高耸立，白雾弥漫，犹如人间仙境"
+    },{
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/24/30f714149293b6.jpg_r_640x214_bfa37f12.jpg",
+      "title": "狮子峰等你",
+      "desc": "有黄山之险，悬崖峭壁，这里有满山的翠竹、青藤，堪称人间仙境世外桃源"
+    }]
+  }
+}
+  
