@@ -1,6 +1,6 @@
 <template>
 	<div>
-    <home-header :city="city"></home-header>    <!--绑定数值，父元素向子元素传递数据-->
+    <home-header></home-header>    <!--绑定数值，父元素向子元素传递数据-->
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconsList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      city: '',
+      // city: '',
       swiperList: [],
       iconsList: [],
       recommendList: [],
@@ -43,7 +43,7 @@ export default {
       res = res.data
       if(res.ret && res.data) {
         const data = res.data            //接收ajax请求返回的数据
-        this.city = data.city
+        // this.city = data.city
         this.swiperList = data.swiperList
         this.iconsList = data.iconsList
         this.recommendList = data.recommendList

@@ -15,10 +15,11 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    ...mapState(['city'])     //mapState:将city公用数据映射到名为city的计算属性中
   }
 }
 </script>
@@ -41,7 +42,7 @@ export default {
   .header-input {
     flex: 1;
     line-height: 1.6rem;
-    margin: auto 0.24rem;
+    margin: auto 0.30rem;
     padding-left: 0.2rem;
     color: #B0C4DE;
     background: #fff;
@@ -49,10 +50,13 @@ export default {
   }
   .header-right {
     color: #fff;
-    width: 3rem;
+    min-width: 3rem;
     float: right;
-    margin-right: 0.24rem;
+    margin-right: 0.28rem;
     text-align: center;
+    overflow: hidden;             /*选项名称很长时...*/
+    white-space: nowrap;          /*选项名称很长时...*/
+    text-overflow: ellipsis;      /*选项名称很长时...*/
   }
   .arrow-icon {
     font-size: 0.48rem;

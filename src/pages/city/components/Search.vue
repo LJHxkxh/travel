@@ -5,7 +5,7 @@
     </div>  <!--v-model="keyword"双向绑定-->
     <div class="search-content" ref="search" v-show="keyword">
       <ul>
-        <li class="search-item border-topbottom" v-for="item of list" :key="item.id">{{item.name}}</li>
+        <li class="search-item border-topbottom" v-for="item of list" :key="item.id" @click="handleCityClick(item.name)">{{item.name}}</li>
         <li class="search-item border-topbottom" v-show="hasNoData">无相关匹配城市</li>
       </ul>
     </div>
@@ -52,6 +52,12 @@ export default {
   computed: {
     hasNoData() {
       return !this.list.length
+    }
+  },
+  methods: {
+    handleCityClick(city) {
+      this.$store.commit('changeCity',city)
+      this.$router.push('/')
     }
   },
   mounted() {
