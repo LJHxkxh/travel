@@ -1,15 +1,21 @@
 <template>
-<div class="icons">
-  <swiper :options="swiperOption">
-    <swiper-slide v-for="(page, index) of pages" :key="index">
-      <div class="icon" v-for="item of page" :key="item.id">
-        <div class="icon-img">
-          <img class="icon-img-content" :src="item.imgUrl">
+<div>
+  <div class="icons">
+    <swiper :options="swiperOption">
+      <swiper-slide v-for="(page, index) of pages" :key="index">
+        <div class="icon" v-for="item of page" :key="item.id">
+          <div class="icon-img">
+            <img class="icon-img-content" :src="item.imgUrl">
+          </div>
+          <p class="icon-desc">{{item.desc}}</p>
         </div>
-        <p class="icon-desc">{{item.desc}}</p>
-      </div>
-    </swiper-slide> 
-  </swiper>
+      </swiper-slide> 
+    </swiper>
+  </div>
+  <div class="options"> 
+    <div class="option option1"><span class="iconfont arrow-icon">&#xe675;</span>  定位</div>
+    <div class="option"><span class="iconfont arrow-icon earth">&#xe844;</span>  必游榜单</div>
+  </div>
 </div>
 </template>
 
@@ -28,15 +34,15 @@ export default {
   },  
   computed: {
     pages() {
-      const pages = [];
+      const pages = []
       this.list.forEach((item, index) => {
         const page = Math.floor(index / 8)
         if(!pages[page]) {
-          pages[page] = [];
+          pages[page] = []
         }
-        pages[page].push(item);
+        pages[page].push(item)
       })
-        return pages;
+        return pages
     }
   }
 }
@@ -55,7 +61,7 @@ export default {
     float: left;
     width: 25%;
     height: 0;
-    margin-top: 0.2rem;
+    margin-top: 0.38rem;
     padding-bottom: 18%;
   }
   .icon-img {
@@ -82,5 +88,26 @@ export default {
     white-space: nowrap;          /*选项名称很长时出现...*/
     text-overflow: ellipsis;      /*选项名称很长时出现...*/
   }
+  .options {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+  }
+  .option {
+    width: 49.8%;
+    float: left;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: 0.38rem;
+    padding: 0.4rem 0;
+    border-top: 1px #cccccc solid;
+  }
+  .option1 {
+    border-right: 1px #cccccc solid;
+  }
+  .earth {
+    font-size: 1.1rem;
+  }
 </style>
-

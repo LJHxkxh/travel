@@ -25,7 +25,7 @@ export default {
 
 <style scoped>   
   .title {
-    margin: 0.48rem auto;
+    /* margin: 0.48rem auto; */
     line-height: 2rem;
     background: #eee;
     text-indent: 0.4rem;
@@ -69,4 +69,3 @@ export default {
     margin-top: 1rem;
   }
 </style>
-

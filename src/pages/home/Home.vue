@@ -37,21 +37,21 @@ export default {
   methods: {
     getHomeInfo() {
       axios.get('/api/index.json')  //api会转换成static/mock
-        .then(this.getHomeInfoSucc);
+        .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc(res) {
-      res = res.data;
-      if(res.ret && res.data){
-        const data = res.data;             //接收ajax请求返回的数据
-        this.city = data.city;
-        this.swiperList = data.swiperList;
-        this.iconsList = data.iconsList;
-        this.recommendList = data.recommendList;
-        this.weekendList = data.weekendList;
+      res = res.data
+      if(res.ret && res.data) {
+        const data = res.data            //接收ajax请求返回的数据
+        this.city = data.city
+        this.swiperList = data.swiperList
+        this.iconsList = data.iconsList
+        this.recommendList = data.recommendList
+        this.weekendList = data.weekendList
       }
     }
   },
-  mounted () {
+  mounted() {
     this.getHomeInfo()
   }
 }

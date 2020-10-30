@@ -27,7 +27,7 @@ export default {
       for(let i in this.cities) {
         letters.push(i)
       }
-      return letters;
+      return letters
     }
   },
   data() {
@@ -54,7 +54,7 @@ export default {
         }
         this.timer = setTimeout(() => {
           const touchY = e.touches[0].clientY - 300
-          const index = Math.floor((touchY - this.startY) / 17);
+          const index = Math.floor((touchY - this.startY) / 17)
           if(index >= 0 && index < this.letters.length){
             this.$emit('change',this.letters[index])
           }
@@ -84,5 +84,3 @@ export default {
     color: #00bcd4;;
   }
 </style>
-
-

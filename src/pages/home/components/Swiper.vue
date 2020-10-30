@@ -15,7 +15,7 @@ export default {
   props: {
     list: Array
   },
-  data () {
+  data() {
     return {
       swiperOption: {
         pagination: '.swiper-pagination',
@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     showSwiper() {
-      return this.list.length;
+      return this.list.length
     }
   }
 }
@@ -55,12 +55,10 @@ export default {
   .wrapper {
     overflow: hidden;
     width: 100%;
-    height: 0;
-    padding-bottom: 78%;
+    /* padding-bottom: 63%;  */
     background-color: #eee;
   }
   .swiper-img {
     width: 100%;
   } 
 </style>
-

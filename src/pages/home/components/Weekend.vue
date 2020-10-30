@@ -24,10 +24,10 @@ export default {
 
 <style scoped>   
   .title {
-    margin-bottom: 0.36rem;
     line-height: 2rem;
     background: #eee;
     text-indent: 0.4rem;
+    margin-bottom: 0.36rem;
   }
   .item-img {
     width: 100%;

@@ -42,8 +42,8 @@ export default {
   watch: {
     letter() {
       if(this.letter) {
-        const element = this.$refs[this.letter][0];   //this.$refs[this.letter]获取的是数组,而scrollToElement传递的参数需要是个dom元素,故[0]获取相应区域
-        this.scroll.scrollToElement(element);
+        const element = this.$refs[this.letter][0]   //this.$refs[this.letter]获取的是数组,而scrollToElement传递的参数需要是个dom元素,故[0]获取相应区域
+        this.scroll.scrollToElement(element)
       }
     }
   }
@@ -94,7 +94,4 @@ export default {
     line-height: 1.8rem;
     font-size: 1rem;
   }
-
 </style>
-
-
