@@ -41,12 +41,15 @@ export default {
       }else {
         this.showAbs = true
       }
-      console.log(top);
     }
   },
-  activated() {
+  activated() {     //页面展示时
     window.addEventListener('scroll',this.handleScroll)
+  },
+  deactivated() {   //页面即将被替换成新的页面时执行
+    window.removeEventListener('scroll',this.handleScroll)
   }
+  //页面展示时绑定全局事件，页面被隐藏时去除全局事件，防止全局事件一直被执行，污染其他页面
 }
 </script>
 
