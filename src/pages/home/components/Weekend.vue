@@ -1,8 +1,10 @@
 <template>
   <div>
     <div class="title">周末去哪儿</div>
-    <ul v-for="(item,index) in list" :key="index">
-      <li class="item border-bottom">
+    <ul>
+      <li class="item border-bottom"
+        v-for="item of list" :key="item.id"
+      >
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info"> 
           <p class="item-title">{{item.title}}</p>

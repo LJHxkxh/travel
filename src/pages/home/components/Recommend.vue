@@ -1,15 +1,18 @@
 <template>
   <div>
     <div class="title"><span class="iconfont" style="color:red">&#xe64b;</span>猜你喜欢</div>
-    <ul v-for="(item,index) in list" :key="index">
-      <li class="item border-bottom">
+    <ul>
+      <router-link class="item border-bottom" tag="li"
+        v-for="item of list" :key="item.id"
+        :to="'/detail/' + item.id"
+      >
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info"> 
           <p class="item-title">{{item.title}}</p>
           <p class="item-desc">{{item.desc}}</p>
           <button class="item-button">查看详情</button>
         </div>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>

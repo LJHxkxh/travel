@@ -6,6 +6,13 @@
   "description": "Travel项目图标",
   "glyphs": [
     {
+      "icon_id": "9874536",
+      "name": "KHCFDC_图片",
+      "font_class": "tupian",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
       "icon_id": "1183130",
       "name": "定位",
       "font_class": "dingwei",
