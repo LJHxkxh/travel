@@ -52,8 +52,9 @@ export default {
   .icons >>> .swiper-container {
     overflow: hidden;
     height: 0;
-    padding-bottom: 40%;      /*设置宽度（相对于body）*/
-    margin-top: -0.125rem;    
+    padding-bottom: 42%;      /*？？？设置高度（相对于body）*/ 
+                              /* 当margin或者padding取值是百分比的时候，无论是left，right或者top，bottom，
+                              都是以父元素的width为参考物，进行提前占位，避免资源加载时候的闪烁，还可以让高度自适应。  */
   }
   .icon {
     position: relative;
@@ -61,8 +62,7 @@ export default {
     float: left;
     width: 25%;
     height: 0;
-    margin-top: 0.38rem;
-    padding-bottom: 18%;
+    padding-bottom: 21%;
   }
   .icon-img {
     position: absolute;
@@ -72,15 +72,16 @@ export default {
   }
   .icon-img-content {
     display: block;
-    margin: auto;
-    height: 3rem;
+    width: 3.45rem;
+    height: 3.45rem;
+    margin: 0.3rem auto;
   }
   .icon-desc {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 3.4rem;
+    top: 4.1rem;
     font-size: 0.8rem;
     text-align: center;
     color: #333;
@@ -102,10 +103,10 @@ export default {
     color: #333;
     margin-top: 0.38rem;
     padding: 0.4rem 0;
-    border-top: 1px #cccccc solid;
+    border-top: 0.0625rem #cccccc solid;
   }
   .option1 {
-    border-right: 1px #cccccc solid;
+    border-right: 0.0625rem #cccccc solid;
   }
   .earth {
     font-size: 1.1rem;

@@ -38,12 +38,13 @@ export default {
   .back-icon {
     text-align: center;
     font-size: 1.1rem;
+    padding-top: 0.2rem;
   }
   .header-input {
     flex: 1;
     line-height: 1.6rem;
-    margin: auto 0.30rem;
-    padding-left: 0.2rem;
+    margin: 0.4rem;
+    padding: 0.2rem;
     color: #B0C4DE;
     background: #fff;
     border-radius: .2rem;
@@ -52,6 +53,7 @@ export default {
     color: #fff;
     min-width: 3rem;
     float: right;
+    padding-top: 0.2rem;
     margin-right: 0.28rem;
     text-align: center;
     overflow: hidden;             /*选项名称很长时...*/

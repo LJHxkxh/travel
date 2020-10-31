@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <!-- 显示的是当前路由地址对应的内容 -->
-    <router-view/>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>  <!--切换路由选择时无需重新加载，提高性能-->
   </div>
 </template>
 
