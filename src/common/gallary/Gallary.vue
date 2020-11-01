@@ -60,7 +60,7 @@ export default {
     width: 100%;
     height: 0;
     padding-bottom: 65%;
-    background: #fff;;
+    background: #000;;
   }
   .gallary-img {
     width: 100%;
@@ -68,6 +68,6 @@ export default {
   .swiper-pagination {
     color: #fff;
     font-size: 0.9rem;
-    bottom: -3.6rem;
+    bottom: -12rem;
   }
 </style>

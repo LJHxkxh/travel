@@ -62,7 +62,7 @@ export default {
     height: 2.6rem;
     text-align: center;
     border-radius: 2rem;
-    background: rgba(0 , 0 , 0 , 0.4);
+    background: rgba(0, 0, 0, 0.4);
   }
   .header-abs-back {
     color: #fff;

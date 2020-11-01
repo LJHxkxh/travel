@@ -21,5 +21,8 @@ export default new Router({
       path: '/detail/:id',      //动态路由
       name: 'Detail',
       component: Detail
-    }]
+    }],
+    scrollBehavior(to, from, savePosition) {
+      return {x: 0, y: 0}
+    }     //每次进行路由切换时页面都回到最顶部
 })
