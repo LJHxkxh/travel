@@ -70,6 +70,7 @@ export default {
     font-size: 1.1rem;
   }
   .header-fixed {
+    z-index: 2;
     position: fixed;
     top: 0;
     width: 100%;
