@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     getHomeInfo() {
-      axios.get('/api/index.json?city=' + this.city)  //api会转换成static/mock
+      axios.get('/static/mock/index.json?city=' + this.city)  //api会转换成static/mock
         .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc(res) {
