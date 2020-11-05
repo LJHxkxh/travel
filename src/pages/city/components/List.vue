@@ -64,7 +64,7 @@ export default {
     border-color: #ccc;
   }
   .list {
-    overflow: hidden;
+    overflow: auto;
     position: absolute;
     left: 0;
     right: 0;
@@ -81,7 +81,7 @@ export default {
     color: #666;
   }
   .button-list {
-    overflow: hidden;     /*触发BFC, 防止父元素高度塌陷*/
+    overflow: hidden;     /*触发BFC, 防止父元素高度塌陷 */
     padding: 0.4rem 0.2rem;
   }
   .button-wrapper {

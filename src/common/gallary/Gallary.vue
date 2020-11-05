@@ -2,7 +2,7 @@
 	<div class="container" @click="handlegGallaryClick">
     <div class="wrapper">
       <swiper :options="swiperOption">
-        <swiper-slide v-for="(item , index) of imgs" :key="index">
+        <swiper-slide v-for="(item, index) of imgs" :key="index">
           <img class="gallary-img"  :src="item" />
         </swiper-slide>
         <div class="swiper-pagination"  slot="pagination"></div>
@@ -60,7 +60,7 @@ export default {
     width: 100%;
     height: 0;
     padding-bottom: 65%;
-    background: #000;;
+    background: #000;
   }
   .gallary-img {
     width: 100%;

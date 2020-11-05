@@ -57,5 +57,5 @@ export default {
 <style scoped>
   .content {
     height: 100rem;
-  }  
+  }
 </style>

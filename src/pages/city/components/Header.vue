@@ -17,7 +17,7 @@ export default {
 <style scoped>
   .header {
     position: relative;
-    height: 2.4rem;
+    height: 2rem;
     line-height: 2.4rem;
     font-size: 1.05rem;
     text-align: center;

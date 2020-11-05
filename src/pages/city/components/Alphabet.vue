@@ -4,15 +4,16 @@
       class="item" v-for="item of letters" 
       :key="item" 
       :ref="item"
-      @touchstart.prevent="handleTouchStart"
-      @touchmove="handleTouchMove"
-      @touchend="handleTouchEnd"
       @click="handleLetterClick"
     >
       {{item}}
     </li>
   </ul>
 </template>
+
+// @touchstart.prevent="handleTouchStart"
+// @touchmove="handleTouchMove"
+// @touchend="handleTouchEnd"        手机拖滑字母表选择城市
 
 <script>
 
@@ -44,26 +45,26 @@ export default {
     handleLetterClick(e) {
       this.$emit('change',e.target.innerText)
     },
-    handleTouchStart() {
-      this.touchStatus =  true
-    },
-    handleTouchMove(e) { 
-      if(this.touchStatus) {
-        if(this.timer) {
-          clearTimeout(this.timer)
-        }
-        this.timer = setTimeout(() => {
-          const touchY = e.touches[0].clientY - 300
-          const index = Math.floor((touchY - this.startY) / 17)
-          if(index >= 0 && index < this.letters.length){
-            this.$emit('change',this.letters[index])
-          }
-        },16)     //函数节流
-      }
-    },
-    handleTouchEnd() {
-      this.touchStatus = false
-    }
+    // handleTouchStart() {
+    //   this.touchStatus =  true
+    // },
+    // handleTouchMove(e) { 
+    //   if(this.touchStatus) {
+    //     if(this.timer) {
+    //       clearTimeout(this.timer)
+    //     }
+    //     this.timer = setTimeout(() => {
+    //       const touchY = e.touches[0].clientY - 300
+    //       const index = Math.floor((touchY - this.startY) / 17)
+    //       if(index >= 0 && index < this.letters.length){
+    //         this.$emit('change',this.letters[index])
+    //       }
+    //     },16)     //函数节流
+    //   }
+    // },
+    // handleTouchEnd() {
+    //   this.touchStatus = false
+    // }
   }
 }
 </script>
@@ -73,7 +74,7 @@ export default {
     /* display: flex;
     flex-direction:  column;
     justify-content: center; */
-    position: absolute;
+    position: fixed;
     right: 0.4rem;
     top: 18.6rem;
   }

@@ -1,5 +1,5 @@
 let defaultCity = '南昌';
-try{
+try {
   if(localStorage.city) {
     defaultCity = localStorage.city
   }

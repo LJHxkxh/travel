@@ -68,14 +68,14 @@ export default {
 
 <style scoped>
   .search {
-    height: 2rem;
+    height: 2.4rem;
     background: #00bcd4;
   }
   .search-input {
     width: 96%;
     height: 1.5rem;
-    line-height: 1.5rem;
-    margin: 0 0.29rem;
+    line-height: 1.6rem;
+    margin: 0.15rem 0.29rem;
     text-align: center;
     font-size: 0.9rem;
     border-radius: 0.3rem;
