@@ -76,7 +76,7 @@ export default {
     justify-content: center; */
     position: fixed;
     right: 0.4rem;
-    top: 18.6rem;
+    top: 14.5em;
   }
   .item {
     text-align: center;

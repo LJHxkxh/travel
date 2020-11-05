@@ -64,7 +64,8 @@ export default {
     border-color: #ccc;
   }
   .list {
-    overflow: auto;
+    overflow: hidden;
+    /* overflow: auto; */
     position: absolute;
     left: 0;
     right: 0;
